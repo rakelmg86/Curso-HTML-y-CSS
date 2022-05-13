@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio sesion2</title>
+</head>
+<body>
+    <form id="Formulario de datos" style = border:2px; margin:30px; padding:>
+     <h2>Formulario de datos</h2>
+
+     <fieldset>
+         <legend>Datos de contacto</legend>
+
+          <div>
+            <p>Nombre completo:</p>
+            <input requiered type="text" placeholder="Nombre">
+            <input requiered type="text" placeholder="Apellidos"><br>
+            <p>Direccion de email:</p>
+            <input requiered type = "email" placeholder ="Email">
+          </div>
+
+          <div>
+            <p>Movil:</p>
+            <input pattern = "[0-9]" requiered type ="tel">
+            <p>Fijo (opcional):</p>
+            <input pattern = "[0-9]" type ="tel">
+            <p>Direccion de envio (Calle, número y codigo postal)</p>
+            <input type requiered ="text">
+            <p>Direccion de facturacion</p>
+            <input type ="text">
+            <p><input type="submit" value="Enviar datos"></p>
+
+          </div>
+
+    
+
+          <div>
+            <br>
+            <table class=”Tabla1” border=”2”>
+                <caption>***Tarifas de envio de paqueteria***</caption>
+            <tr>
+              <th scope=”row”>Peso</th>
+              <th>Nacional<th>
+              <th>Internacional<th>
+              <th>Mismo dia<th>
+              <th>Express 2h</th>
+            </tr>
+
+            <tr>
+                <th>Hasta 5Kg</th>
+                <th>10€<th>
+                <th>20€<th>
+                <th>25€<th>
+                <th rowspan="3">50€</th>   
+            </tr>
+
+            <tr>
+                <th>Hasta 10Kg</th>
+                <th>18€<th>
+                <th>27€<th>
+                <th>29€<th>
+            </tr>
+
+            <tr>
+                <th>Mas de 10Kg y palets</th>
+                <th colspan = "3">40€<th>
+                <th>25€<th>
+        
+            </tr>
+            
+          </div>
+
+        
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
