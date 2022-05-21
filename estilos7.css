@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(vegetalesfondo.png);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #795548c9;
+    background-blend-mode: lighten;
+    font-family: 'Raleway';
+    font-weight: 500;
+    
+}
+
+h1{
+    font-family:'Open Sans';
+    font-weight:500;
+}
+
+header{
+    position: absolute;
+    color:rgb(219, 225, 230);
+    font-size:x-large;
+    padding: 1px;
+    margin-right: 90px;
+    margin-left: 90px;
+    
+}
+
+.contenedor{
+    display:flex;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-form{
+    background-color: rgb(250, 234, 214);
+    max-width: 400px;
+    padding: 20px;
+    border-radius:10px;
+    margin:20px;
+}
+
+
+.login-form__field{
+    margin-bottom: 10px;
+}
+
+.login-form__field input{
+    width:230px;
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid #f5f5f5
+}
+
+
+[for="check"]{
+    font-size: 11px;
+    position: relative;
+    top: -5px;
+    margin-left: 7px;
+}
+
+button.login-form__button--button{
+    background-color: rgb(66, 20, 150);
+    color:#f5f5f5;
+    border:0;
+    padding:10px;
+    margin-top: 20px;
+    font-size:15px;
+    font-family:'Raleway';
+
+}
+
+input#checkbox {
+    width: auto;
+    width: 15px;
+    height: 15px;
+}
+
+input#usuario{
+    background-image: url(user1.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    padding-left: 30px;
+}
+
+input#password{
+    background-image: url(key1.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    padding-left: 30px;
+}
